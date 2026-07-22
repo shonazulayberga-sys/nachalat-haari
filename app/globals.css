@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #F7F1E6;
+  --color-foreground: #1F1B16;
+
+  /* נחלת הארי — פלטת יוקרה שקטה / טבעית */
+  --color-cream:      #F7F1E6;
+  --color-cream-2:    #FBF7EE;
+  --color-linen:      #E8DDCB;
+  --color-travertine: #CFC3AD;
+  --color-taupe:      #A99983;
+  --color-ink:        #1F1B16;
+  --color-ink-soft:   #524A3F;
+  --color-navy:       #071426;
+  --color-navy-soft:  #0D2036;
+  --color-gold:       #B88A35;
+  --color-gold-soft:  #C8A45E;
+  --color-olive:      #69765A;
+  --color-wheat:      #D8BF7A;
+  --color-line:       #E4DAC8;
+
+  --font-sans:  var(--font-heebo);
+  --font-serif: var(--font-frank);
+}
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  line-height: 1.14;
+  text-wrap: balance;
+}
+
+/* עוגן עדין: קו הפרדה זהוב ל"eyebrow" */
+.eyebrow {
+  font-size: .8rem;
+  color: var(--color-gold);
+  display: inline-flex;
+  align-items: center;
+  gap: .55rem;
+  font-weight: 500;
+}
+.eyebrow::before {
+  content: "";
+  width: 26px;
+  height: 1px;
+  background: var(--color-gold);
+  opacity: .7;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}

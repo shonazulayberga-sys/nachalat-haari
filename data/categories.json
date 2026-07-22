@@ -1,0 +1,58 @@
+[
+  {
+    "id": "talitot",
+    "name": "טליתות",
+    "description": "טליתות מעוטרות עם עטרה מוטבעת, בהתאמה אישית של שם וברכה.",
+    "image": "/products/talitot-01.jpeg",
+    "count": 3
+  },
+  {
+    "id": "tefillin",
+    "name": "תפילין",
+    "description": "נרתיקי ותיקי תפילין בעבודת יד, מזמש ופשתן.",
+    "image": null,
+    "count": 0
+  },
+  {
+    "id": "tikim",
+    "name": "תיקים",
+    "description": "תיקי טלית ותפילין — זמש, קטיפה ופשתן — עם שם, ברכה ומוטיב הלהבה.",
+    "image": "/products/tikim-05.jpeg",
+    "count": 24
+  },
+  {
+    "id": "kipot",
+    "name": "כיפות",
+    "description": "כיפות פשתן וקטיפה בגוונים טבעיים, עם רקמת שם.",
+    "image": "/products/kipot-01.jpeg",
+    "count": 5
+  },
+  {
+    "id": "mezuzot",
+    "name": "מזוזות",
+    "description": "מזוזות אקריל ומראה בעיצוב מפת ישראל, בזהב וברוז-גולד.",
+    "image": "/products/mezuzot-01.jpeg",
+    "count": 2
+  },
+  {
+    "id": "family-signs",
+    "name": "שלטי משפחה",
+    "description": "שלטי בית ומשפחה מעוצבים, עם ברכת הבית ושם המשפחה.",
+    "image": "/products/family-signs-04.jpeg",
+    "count": 6
+  },
+  {
+    "id": "memorial",
+    "name": "נרות זיכרון",
+    "description": "נרות זיכרון מקריסטל עם חריטת דיוקן ושם יקירכם.",
+    "image": "/products/memorial-01.jpeg",
+    "count": 1
+  },
+  {
+    "id": "gift-sets",
+    "name": "מארזים וסטים",
+    "description": "מארזי מתנה שלמים — טלית, תפילין, כיפה וסידור — ארוזים במתנה מרגשת.",
+    "image": "/products/gift-sets-06.jpeg",
+    "count": 16
+  }
+]

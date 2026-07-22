@@ -1,0 +1,804 @@
+[
+  {
+    "id": "mezuzot-1",
+    "name": "מזוזת מפת ישראל · אקריל ומראה · כסף",
+    "description": "הטבעת הפסוק: בבית זה תשרה שכינה בריאות פרנסה ברכה ושלום",
+    "category": "mezuzot",
+    "images": [
+      "/products/mezuzot-01.jpeg"
+    ],
+    "material": "acrylic-mirror",
+    "blessing": "בבית זה תשרה שכינה בריאות פרנסה ברכה ושלום",
+    "personalName": "לוי",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "mezuzot-2",
+    "name": "מזוזת מפת ישראל · אקריל ומראה · רוז־גולד",
+    "description": "הטבעת הפסוק: בבית זה תשרה שכינה בריאות פרנסה ברכה ושלום",
+    "category": "mezuzot",
+    "images": [
+      "/products/mezuzot-02.jpeg"
+    ],
+    "material": "acrylic-mirror",
+    "blessing": "בבית זה תשרה שכינה בריאות פרנסה ברכה ושלום",
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "family-signs-1",
+    "name": "שלט ברכת הבית · אקריל · שחור",
+    "description": "הטבעת הפסוק: יברכך ה' וישמרך יאר ה' פניו אליך ויחנך ישא ה' פניו אליך וישם לך שלום",
+    "category": "family-signs",
+    "images": [
+      "/products/family-signs-01.jpeg"
+    ],
+    "material": "acrylic",
+    "blessing": "יברכך ה' וישמרך יאר ה' פניו אליך ויחנך ישא ה' פניו אליך וישם לך שלום",
+    "personalName": "משפחת יצחק",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "family-signs-2",
+    "name": "שלט ברכת הבית · אקריל · שמנת",
+    "description": "הטבעת הפסוק: בבית זה תשרה שמחה בריאות פרנסה ברכה ושלום",
+    "category": "family-signs",
+    "images": [
+      "/products/family-signs-02.jpeg"
+    ],
+    "material": "acrylic",
+    "blessing": "בבית זה תשרה שמחה בריאות פרנסה ברכה ושלום",
+    "personalName": "משפחת הרוש",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "family-signs-3",
+    "name": "שלט ברכת הבית · אקריל ומראה · רוז־גולד",
+    "description": "הטבעת הפסוק: בבית זה תשרה שכינה בריאות פרנסה ברכה ושלום",
+    "category": "family-signs",
+    "images": [
+      "/products/family-signs-03.jpeg"
+    ],
+    "material": "acrylic-mirror",
+    "blessing": "בבית זה תשרה שכינה בריאות פרנסה ברכה ושלום",
+    "personalName": "משפחת זבולון",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "family-signs-4",
+    "name": "שלט ברכת הבית · אקריל · שמנת",
+    "description": "הטבעת הפסוק: בבית זה תשרה שמחה בריאות פרנסה ברכה ושלום",
+    "category": "family-signs",
+    "images": [
+      "/products/family-signs-04.jpeg"
+    ],
+    "material": "acrylic",
+    "blessing": "בבית זה תשרה שמחה בריאות פרנסה ברכה ושלום",
+    "personalName": "משפחת סוויסה",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "family-signs-5",
+    "name": "שלט ברכת הבית · אקריל ומראה · שמנת",
+    "description": "הטבעת הפסוק: בבית זה תשרה שמחה בריאות פרנסה ברכה ושלום",
+    "category": "family-signs",
+    "images": [
+      "/products/family-signs-05.jpeg"
+    ],
+    "material": "acrylic-mirror",
+    "blessing": "בבית זה תשרה שמחה בריאות פרנסה ברכה ושלום",
+    "personalName": "משפחת בן דלין",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "family-signs-6",
+    "name": "שלט ברכת הבית · אקריל · חום",
+    "description": "הטבעת הפסוק: בבית זה תשרה שמחה בריאות פרנסה ברכה ושלום",
+    "category": "family-signs",
+    "images": [
+      "/products/family-signs-06.jpeg"
+    ],
+    "material": "acrylic",
+    "blessing": "בבית זה תשרה שמחה בריאות פרנסה ברכה ושלום",
+    "personalName": "משפחת אהרונוב",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "memorial-1",
+    "name": "נר זיכרון מקריסטל · קריסטל",
+    "description": "הטבעת הפסוק: בזכרנו ונשמתו לעד עטרת ראשנו",
+    "category": "memorial",
+    "images": [
+      "/products/memorial-01.jpeg"
+    ],
+    "material": "crystal",
+    "blessing": "בזכרנו ונשמתו לעד עטרת ראשנו",
+    "personalName": "חיים בן ג'ויה / סוזן בת אהובה / דלל בת שרה",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "gift-sets-1",
+    "name": "מארז טלית ותפילין · פשתן · בז׳",
+    "description": "הטבעת הפסוק: יברכך ה' וישמרך",
+    "category": "gift-sets",
+    "images": [
+      "/products/gift-sets-01.jpeg",
+      "/products/gift-sets-02.jpeg"
+    ],
+    "material": "linen",
+    "blessing": "יברכך ה' וישמרך",
+    "personalName": "גל סוריון",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tikim-1",
+    "name": "תיק טלית ותפילין · פשתן · בז׳",
+    "description": "הטבעת הפסוק: יברכך ה' וישמרך",
+    "category": "tikim",
+    "images": [
+      "/products/tikim-01.jpeg"
+    ],
+    "material": "linen",
+    "blessing": "יברכך ה' וישמרך",
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "gift-sets-3",
+    "name": "מארז טלית ותפילין · פשתן · שמנת",
+    "description": "הטבעת הפסוק: יברכך ה' וישמרך",
+    "category": "gift-sets",
+    "images": [
+      "/products/gift-sets-03.jpeg"
+    ],
+    "material": "linen",
+    "blessing": "יברכך ה' וישמרך",
+    "personalName": "חי אליהו טויטו",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tikim-2",
+    "name": "תיק טלית ותפילין · פשתן · שמנת",
+    "description": "בהתאמה אישית — שם, ברכה ומוטיב הלהבה.",
+    "category": "tikim",
+    "images": [
+      "/products/tikim-02.jpeg",
+      "/products/tikim-25.jpeg"
+    ],
+    "material": "linen",
+    "blessing": null,
+    "personalName": "ירין רפאל גזית",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tikim-3",
+    "name": "תיק טלית ותפילין · קטיפה · נייבי",
+    "description": "בהתאמה אישית — שם, ברכה ומוטיב הלהבה.",
+    "category": "tikim",
+    "images": [
+      "/products/tikim-03.jpeg"
+    ],
+    "material": "velvet",
+    "blessing": null,
+    "personalName": "עומר ציון מדרי",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tikim-4",
+    "name": "תיק טלית ותפילין · טורקיז",
+    "description": "הטבעת הפסוק: יברכך ה' וישמרך",
+    "category": "tikim",
+    "images": [
+      "/products/tikim-04.jpeg"
+    ],
+    "material": null,
+    "blessing": "יברכך ה' וישמרך",
+    "personalName": "שדי אהונם",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "kipot-1",
+    "name": "כיפה · קטיפה · טאופ",
+    "description": "בהתאמה אישית — שם, ברכה ומוטיב הלהבה.",
+    "category": "kipot",
+    "images": [
+      "/products/kipot-01.jpeg"
+    ],
+    "material": "velvet",
+    "blessing": null,
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "gift-sets-4",
+    "name": "מארז טלית ותפילין · פשתן · שמנת",
+    "description": "הטבעת הפסוק: יברכך ה' וישמרך",
+    "category": "gift-sets",
+    "images": [
+      "/products/gift-sets-04.jpeg"
+    ],
+    "material": "linen",
+    "blessing": "יברכך ה' וישמרך",
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tikim-5",
+    "name": "תיק טלית ותפילין · טאופ",
+    "description": "בהתאמה אישית — שם, ברכה ומוטיב הלהבה.",
+    "category": "tikim",
+    "images": [
+      "/products/tikim-05.jpeg"
+    ],
+    "material": null,
+    "blessing": null,
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tikim-6",
+    "name": "תיק טלית ותפילין · זמש · טאופ",
+    "description": "הטבעת הפסוק: שיויתי ה' לנגדי תמיד",
+    "category": "tikim",
+    "images": [
+      "/products/tikim-06.jpeg"
+    ],
+    "material": "suede",
+    "blessing": "שיויתי ה' לנגדי תמיד",
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tikim-7",
+    "name": "תיק טלית ותפילין · פשתן · שמנת",
+    "description": "הטבעת הפסוק: יברכך ה' וישמרך יאר ה' פניו אליך ויחנך ישא ה' פניו אליך וישם לך שלום",
+    "category": "tikim",
+    "images": [
+      "/products/tikim-07.jpeg"
+    ],
+    "material": "linen",
+    "blessing": "יברכך ה' וישמרך יאר ה' פניו אליך ויחנך ישא ה' פניו אליך וישם לך שלום",
+    "personalName": "ירין שמעיה",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tikim-8",
+    "name": "תיק טלית ותפילין · טאופ",
+    "description": "הטבעת הפסוק: גם כי אלך בגיא צלמות לא אירא רע כי אתה עמדי",
+    "category": "tikim",
+    "images": [
+      "/products/tikim-08.jpeg"
+    ],
+    "material": null,
+    "blessing": "גם כי אלך בגיא צלמות לא אירא רע כי אתה עמדי",
+    "personalName": "אלירן מולקנדוב",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tikim-9",
+    "name": "תיק טלית ותפילין · זמש · טאופ",
+    "description": "בהתאמה אישית — שם, ברכה ומוטיב הלהבה.",
+    "category": "tikim",
+    "images": [
+      "/products/tikim-09.jpeg"
+    ],
+    "material": "suede",
+    "blessing": null,
+    "personalName": "צח יצחק כהן",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "gift-sets-5",
+    "name": "מארז טלית ותפילין · זמש · שמנת",
+    "description": "הטבעת הפסוק: יברכך ה' וישמרך יאר ה' פניו אליך ויחנך ישא ה' פניו אליך וישם לך שלום",
+    "category": "gift-sets",
+    "images": [
+      "/products/gift-sets-05.jpeg",
+      "/products/gift-sets-17.jpeg"
+    ],
+    "material": "suede",
+    "blessing": "יברכך ה' וישמרך יאר ה' פניו אליך ויחנך ישא ה' פניו אליך וישם לך שלום",
+    "personalName": "נועם ראוי",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tikim-10",
+    "name": "תיק טלית ותפילין · זמש · כסף",
+    "description": "בהתאמה אישית — שם, ברכה ומוטיב הלהבה.",
+    "category": "tikim",
+    "images": [
+      "/products/tikim-10.jpeg"
+    ],
+    "material": "suede",
+    "blessing": null,
+    "personalName": "אליאב משה פרץ",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "talitot-1",
+    "name": "טלית ועטרה · שמנת",
+    "description": "הטבעת הפסוק: יברכך ה' וישמרך",
+    "category": "talitot",
+    "images": [
+      "/products/talitot-01.jpeg"
+    ],
+    "material": "cotton",
+    "blessing": "יברכך ה' וישמרך",
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tikim-11",
+    "name": "תיק טלית ותפילין · זמש · טאופ",
+    "description": "בהתאמה אישית — שם, ברכה ומוטיב הלהבה.",
+    "category": "tikim",
+    "images": [
+      "/products/tikim-11.jpeg"
+    ],
+    "material": "suede",
+    "blessing": null,
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tikim-12",
+    "name": "תיק טלית ותפילין · זמש · טאופ",
+    "description": "בהתאמה אישית — שם, ברכה ומוטיב הלהבה.",
+    "category": "tikim",
+    "images": [
+      "/products/tikim-12.jpeg"
+    ],
+    "material": "suede",
+    "blessing": null,
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tikim-13",
+    "name": "תיק טלית ותפילין · שמנת",
+    "description": "בהתאמה אישית — שם, ברכה ומוטיב הלהבה.",
+    "category": "tikim",
+    "images": [
+      "/products/tikim-13.jpeg"
+    ],
+    "material": null,
+    "blessing": null,
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "gift-sets-6",
+    "name": "מארז טלית ותפילין · טאופ",
+    "description": "הטבעת הפסוק: יברכך ה' וישמרך",
+    "category": "gift-sets",
+    "images": [
+      "/products/gift-sets-06.jpeg"
+    ],
+    "material": null,
+    "blessing": "יברכך ה' וישמרך",
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tikim-14",
+    "name": "תיק טלית ותפילין · קטיפה · אפור",
+    "description": "בהתאמה אישית — שם, ברכה ומוטיב הלהבה.",
+    "category": "tikim",
+    "images": [
+      "/products/tikim-14.jpeg"
+    ],
+    "material": "velvet",
+    "blessing": null,
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tikim-15",
+    "name": "תיק טלית ותפילין · קטיפה · טורקיז",
+    "description": "בהתאמה אישית — שם, ברכה ומוטיב הלהבה.",
+    "category": "tikim",
+    "images": [
+      "/products/tikim-15.jpeg"
+    ],
+    "material": "velvet",
+    "blessing": null,
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tikim-16",
+    "name": "תיק טלית ותפילין · קטיפה · טאופ",
+    "description": "בהתאמה אישית — שם, ברכה ומוטיב הלהבה.",
+    "category": "tikim",
+    "images": [
+      "/products/tikim-16.jpeg"
+    ],
+    "material": "velvet",
+    "blessing": null,
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tikim-17",
+    "name": "תיק טלית ותפילין · קטיפה · טורקיז",
+    "description": "הטבעת הפסוק: מזמור לתודה",
+    "category": "tikim",
+    "images": [
+      "/products/tikim-17.jpeg"
+    ],
+    "material": "velvet",
+    "blessing": "מזמור לתודה",
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "gift-sets-7",
+    "name": "מארז טלית ותפילין · זמש · שמנת",
+    "description": "הטבעת הפסוק: נוכל לזכות ביאת המשיח",
+    "category": "gift-sets",
+    "images": [
+      "/products/gift-sets-07.jpeg"
+    ],
+    "material": "suede",
+    "blessing": "נוכל לזכות ביאת המשיח",
+    "personalName": "יונתן אנגאו",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tikim-18",
+    "name": "תיק טלית ותפילין · זמש · בז׳",
+    "description": "הטבעת הפסוק: מזמור לתודה",
+    "category": "tikim",
+    "images": [
+      "/products/tikim-18.jpeg"
+    ],
+    "material": "suede",
+    "blessing": "מזמור לתודה",
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tikim-19",
+    "name": "תיק טלית ותפילין · פשתן · אפור",
+    "description": "הטבעת הפסוק: מזמור לתודה",
+    "category": "tikim",
+    "images": [
+      "/products/tikim-19.jpeg"
+    ],
+    "material": "linen",
+    "blessing": "מזמור לתודה",
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "gift-sets-8",
+    "name": "מארז טלית ותפילין · זמש · טאופ",
+    "description": "הטבעת הפסוק: יברכך ה' וישמרך יאר ה' פניו אליך ויחנך ישא ה' פניו אליך וישם לך שלום",
+    "category": "gift-sets",
+    "images": [
+      "/products/gift-sets-08.jpeg",
+      "/products/gift-sets-10.jpeg"
+    ],
+    "material": "suede",
+    "blessing": "יברכך ה' וישמרך יאר ה' פניו אליך ויחנך ישא ה' פניו אליך וישם לך שלום",
+    "personalName": "דן גבריאל",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tikim-20",
+    "name": "תיק טלית ותפילין · פשתן · אפור",
+    "description": "בהתאמה אישית — שם, ברכה ומוטיב הלהבה.",
+    "category": "tikim",
+    "images": [
+      "/products/tikim-20.jpeg"
+    ],
+    "material": "linen",
+    "blessing": null,
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "gift-sets-9",
+    "name": "מארז טלית ותפילין · פשתן · שמנת",
+    "description": "הטבעת הפסוק: יברכך ה' וישמרך יאר ה' פניו אליך",
+    "category": "gift-sets",
+    "images": [
+      "/products/gift-sets-09.jpeg"
+    ],
+    "material": "linen",
+    "blessing": "יברכך ה' וישמרך יאר ה' פניו אליך",
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tikim-21",
+    "name": "תיק טלית ותפילין · קטיפה · טאופ",
+    "description": "בהתאמה אישית — שם, ברכה ומוטיב הלהבה.",
+    "category": "tikim",
+    "images": [
+      "/products/tikim-21.jpeg"
+    ],
+    "material": "velvet",
+    "blessing": null,
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "gift-sets-11",
+    "name": "מארז טלית ותפילין · קטיפה · לבן",
+    "description": "הטבעת הפסוק: יברכך ה' וישמרך יאר ה' פניו אליך ויחנך ישא ה' פניו אליך וישם לך שלום",
+    "category": "gift-sets",
+    "images": [
+      "/products/gift-sets-11.jpeg"
+    ],
+    "material": "velvet",
+    "blessing": "יברכך ה' וישמרך יאר ה' פניו אליך ויחנך ישא ה' פניו אליך וישם לך שלום",
+    "personalName": "שלי ביטון",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "gift-sets-12",
+    "name": "מארז טלית ותפילין · קטיפה · שמנת",
+    "description": "הטבעת הפסוק: יברכך ה' וישמרך",
+    "category": "gift-sets",
+    "images": [
+      "/products/gift-sets-12.jpeg"
+    ],
+    "material": "velvet",
+    "blessing": "יברכך ה' וישמרך",
+    "personalName": "שלמה כרוכיאל",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tikim-22",
+    "name": "תיק טלית ותפילין · קטיפה · לבן",
+    "description": "בהתאמה אישית — שם, ברכה ומוטיב הלהבה.",
+    "category": "tikim",
+    "images": [
+      "/products/tikim-22.jpeg"
+    ],
+    "material": "velvet",
+    "blessing": null,
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "gift-sets-13",
+    "name": "מארז טלית ותפילין · פשתן · שמנת",
+    "description": "הטבעת הפסוק: יברכך ה' וישמרך",
+    "category": "gift-sets",
+    "images": [
+      "/products/gift-sets-13.jpeg"
+    ],
+    "material": "linen",
+    "blessing": "יברכך ה' וישמרך",
+    "personalName": "עמית כהן",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "gift-sets-14",
+    "name": "מארז טלית ותפילין · פשתן · בז׳",
+    "description": "הטבעת הפסוק: יברכך ה' וישמרך",
+    "category": "gift-sets",
+    "images": [
+      "/products/gift-sets-14.jpeg"
+    ],
+    "material": "linen",
+    "blessing": "יברכך ה' וישמרך",
+    "personalName": "נאור פרינטה",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "talitot-2",
+    "name": "טלית ועטרה · שמנת",
+    "description": "הטבעת הפסוק: יאר ה' פניו אליך ויחנך",
+    "category": "talitot",
+    "images": [
+      "/products/talitot-02.jpeg"
+    ],
+    "material": "cotton",
+    "blessing": "יאר ה' פניו אליך ויחנך",
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tikim-23",
+    "name": "תיק טלית ותפילין · קטיפה · לבן",
+    "description": "הטבעת הפסוק: יברכך ה' וישמרך",
+    "category": "tikim",
+    "images": [
+      "/products/tikim-23.jpeg"
+    ],
+    "material": "velvet",
+    "blessing": "יברכך ה' וישמרך",
+    "personalName": "אבי טרבלסי",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "gift-sets-15",
+    "name": "מארז טלית ותפילין · קטיפה · לבן",
+    "description": "הטבעת הפסוק: יברכך ה' וישמרך יאר ה' פניו אליך ויחנך ישא ה' פניו אליך וישם לך שלום",
+    "category": "gift-sets",
+    "images": [
+      "/products/gift-sets-15.jpeg"
+    ],
+    "material": "velvet",
+    "blessing": "יברכך ה' וישמרך יאר ה' פניו אליך ויחנך ישא ה' פניו אליך וישם לך שלום",
+    "personalName": "אביב אטיה",
+    "isCustomerOrder": true,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tikim-24",
+    "name": "תיק טלית ותפילין · פשתן · בז׳",
+    "description": "בהתאמה אישית — שם, ברכה ומוטיב הלהבה.",
+    "category": "tikim",
+    "images": [
+      "/products/tikim-24.jpeg"
+    ],
+    "material": "linen",
+    "blessing": null,
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "gift-sets-16",
+    "name": "מארז טלית ותפילין · פשתן · שמנת",
+    "description": "הטבעת הפסוק: יברכך ה' וישמרך יאר ה' פניו אליך",
+    "category": "gift-sets",
+    "images": [
+      "/products/gift-sets-16.jpeg"
+    ],
+    "material": "linen",
+    "blessing": "יברכך ה' וישמרך יאר ה' פניו אליך",
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "kipot-2",
+    "name": "כיפה · קטיפה · שחור",
+    "description": "בהתאמה אישית — שם, ברכה ומוטיב הלהבה.",
+    "category": "kipot",
+    "images": [
+      "/products/kipot-02.jpeg"
+    ],
+    "material": "velvet",
+    "blessing": null,
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "kipot-3",
+    "name": "כיפה · פשתן · שמנת",
+    "description": "בהתאמה אישית — שם, ברכה ומוטיב הלהבה.",
+    "category": "kipot",
+    "images": [
+      "/products/kipot-03.jpeg"
+    ],
+    "material": "linen",
+    "blessing": null,
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "kipot-4",
+    "name": "כיפה · פשתן · בז׳",
+    "description": "בהתאמה אישית — שם, ברכה ומוטיב הלהבה.",
+    "category": "kipot",
+    "images": [
+      "/products/kipot-04.jpeg"
+    ],
+    "material": "linen",
+    "blessing": null,
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "gift-sets-18",
+    "name": "מארז טלית ותפילין · פשתן · שמנת",
+    "description": "הטבעת הפסוק: בבית זה תשרה שמחה בריאות פרנסה ברכה ושלום",
+    "category": "gift-sets",
+    "images": [
+      "/products/gift-sets-18.jpeg"
+    ],
+    "material": "linen",
+    "blessing": "בבית זה תשרה שמחה בריאות פרנסה ברכה ושלום",
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "talitot-3",
+    "name": "טלית ועטרה · לבן",
+    "description": "בהתאמה אישית — שם, ברכה ומוטיב הלהבה.",
+    "category": "talitot",
+    "images": [
+      "/products/talitot-03.jpeg"
+    ],
+    "material": "cotton",
+    "blessing": null,
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "kipot-5",
+    "name": "כיפה · פשתן · טאן",
+    "description": "בהתאמה אישית — שם, ברכה ומוטיב הלהבה.",
+    "category": "kipot",
+    "images": [
+      "/products/kipot-05.jpeg"
+    ],
+    "material": "linen",
+    "blessing": null,
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "gift-sets-19",
+    "name": "מארז טלית ותפילין · פשתן · שמנת",
+    "description": "הטבעת הפסוק: בבית זה תשרה שמחה בריאות פרנסה ברכה ושלום",
+    "category": "gift-sets",
+    "images": [
+      "/products/gift-sets-19.jpeg"
+    ],
+    "material": "linen",
+    "blessing": "בבית זה תשרה שמחה בריאות פרנסה ברכה ושלום",
+    "personalName": null,
+    "isCustomerOrder": false,
+    "createdAt": "1970-01-01T00:00:00.000Z"
+  }
+]
