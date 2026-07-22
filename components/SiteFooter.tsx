@@ -51,9 +51,12 @@ export default async function SiteFooter() {
         </div>
       </div>
 
-      <div className="mx-auto mt-8 flex max-w-[1180px] flex-wrap justify-between gap-3 border-t border-white/10 pt-6 text-[.8rem] text-[#8F846F]">
+      <div className="mx-auto mt-8 flex max-w-[1180px] flex-wrap items-center justify-between gap-3 border-t border-white/10 pt-6 text-[.8rem] text-[#8F846F]">
         <span>© {new Date().getFullYear()} נחלת הארי · כל הזכויות שמורות</span>
-        <span>יודאיקה יוקרתית · בעבודת יד בישראל</span>
+        <div className="flex items-center gap-4">
+          <span>יודאיקה יוקרתית · בעבודת יד בישראל</span>
+          <Link href="/admin" className="text-[#8F846F] transition hover:text-gold-soft">כניסת מנהל</Link>
+        </div>
       </div>
     </footer>
   )
