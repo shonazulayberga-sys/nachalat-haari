@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { getVisibleCategories } from '@/lib/products'
 import { generalOrderLink, WHATSAPP_NUMBER } from '@/lib/whatsapp'
-import { Seal, WhatsAppIcon } from '@/components/Brand'
+import { LogoMark, WhatsAppIcon } from '@/components/Brand'
 
 function prettyPhone() {
   // 972544500168 -> 054-450-0168
@@ -16,7 +16,7 @@ export default async function SiteFooter() {
     <footer className="bg-navy px-6 pb-10 pt-16 text-[#CDBFA4]">
       <div className="mx-auto grid max-w-[1180px] grid-cols-1 gap-10 md:grid-cols-3">
         <div>
-          <Seal className="mb-4 h-16 w-16" />
+          <LogoMark className="mb-4 h-20 w-20" sizes="80px" />
           <h4 className="mb-3 font-serif text-[1.05rem] font-medium text-[#F0E6CF]">נחלת הארי</h4>
           <p className="max-w-[34ch] text-[.95rem] leading-relaxed">
             תשמישי קדושה בעבודת יד ובהתאמה אישית — טליתות, תפילין, תיקים, כיפות, מזוזות ומארזים.

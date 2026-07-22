@@ -1,29 +1,40 @@
-// חותם נחלת הארי + מוטיב הלהבה — נכסי מותג משותפים (SVG טהור).
+// לוגו נחלת הארי (אריה מוכתר) + מוטיב הלהבה — נכסי מותג משותפים.
 
-export function Seal({ className = '' }: { className?: string }) {
+import Image from 'next/image'
+
+// הלוגו חולץ מ-public/brand/brand-02.jpeg לרקע שקוף, ויושב על מדליון נייבי בצבע הפלטה.
+// lockup = אריה + הכיתוב "נחלת הארי" · mark = האריה בלבד, לגדלים קטנים שבהם הכיתוב לא קריא.
+// ה-transform מרים את הלוקאפ מעט מעל מרכז המעגל, כדי שהכיתוב לא ייצמד לקשת התחתונה.
+const VARIANTS = {
+  lockup: { src: '/brand/logo-lockup.png', transform: 'scale-[.72] -translate-y-[6%]' },
+  mark: { src: '/brand/logo-lion.png', transform: 'scale-[.8]' },
+} as const
+
+export function LogoMark({
+  variant = 'lockup',
+  className = '',
+  sizes = '230px',
+  priority = false,
+}: {
+  variant?: keyof typeof VARIANTS
+  className?: string
+  sizes?: string
+  priority?: boolean
+}) {
+  const { src, transform } = VARIANTS[variant]
   return (
-    <svg viewBox="0 0 200 200" className={className} role="img" aria-label="חותם נחלת הארי">
-      <circle cx="100" cy="100" r="98" fill="#071426" />
-      <circle cx="100" cy="100" r="90" fill="none" stroke="#B88A35" strokeWidth="1.1" />
-      <circle cx="100" cy="100" r="70" fill="none" stroke="#B88A35" strokeWidth=".7" opacity=".6" />
-      <path id="seal-ring" d="M100,148 a48,48 0 1 1 0,-96 a48,48 0 1 1 0,96" fill="none" />
-      <text fill="#C8A45E" fontFamily="var(--font-frank), 'David', serif" fontSize="9.3" letterSpacing="1.4">
-        <textPath href="#seal-ring" startOffset="0%">
-          · יודאיקה · תשמישי קדושה · בעבודת יד · נחלת הארי&nbsp;
-        </textPath>
-      </text>
-      <path d="M84,74 l5,-13 5,8 6,-11 6,11 5,-8 5,13 z" fill="#B88A35" />
-      <circle cx="84" cy="60" r="1.7" fill="#B88A35" />
-      <circle cx="100" cy="57" r="1.9" fill="#B88A35" />
-      <circle cx="116" cy="60" r="1.7" fill="#B88A35" />
-      <path
-        d="M100,84 c-9,9 -14,16 -14,25 c0,10 6,17 14,17 c8,0 14,-7 14,-16 c0,-4 -2,-8 -5,-11 c1,4 -1,7 -3,7 c3,-8 -2,-15 -6,-22 c0,4 -2,7 -4,9 c1,-6 0,-11 -1,-16 z"
-        fill="#C8A45E"
+    <span
+      className={`relative inline-flex shrink-0 overflow-hidden rounded-full bg-navy ring-1 ring-gold/55 ${className}`}
+    >
+      <Image
+        src={src}
+        alt="נחלת הארי"
+        fill
+        sizes={sizes}
+        priority={priority}
+        className={`${transform} object-contain`}
       />
-      <text x="100" y="140" textAnchor="middle" fill="#F0E6CF" fontFamily="var(--font-frank), 'David', serif" fontSize="15" fontWeight="500">
-        נחלת הארי
-      </text>
-    </svg>
+    </span>
   )
 }
 

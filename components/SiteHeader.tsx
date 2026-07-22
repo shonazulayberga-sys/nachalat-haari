@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { getVisibleCategories } from '@/lib/products'
 import { generalOrderLink } from '@/lib/whatsapp'
-import { Seal, WhatsAppIcon } from '@/components/Brand'
+import { LogoMark, WhatsAppIcon } from '@/components/Brand'
 
 export default async function SiteHeader() {
   const categories = await getVisibleCategories()
@@ -10,7 +10,7 @@ export default async function SiteHeader() {
     <header className="sticky top-0 z-40 border-b border-line bg-cream/85 backdrop-blur-md">
       <div className="mx-auto flex h-[70px] max-w-[1180px] items-center justify-between gap-4 px-6">
         <Link href="/" className="flex items-center gap-3">
-          <Seal className="h-9 w-9" />
+          <LogoMark className="h-14 w-14" sizes="56px" priority />
           <span className="font-serif text-[1.34rem] font-medium tracking-[.01em] text-ink">
             נחלת הארי
           </span>

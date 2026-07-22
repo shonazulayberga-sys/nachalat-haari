@@ -7,7 +7,7 @@ import SiteHeader from '@/components/SiteHeader'
 import SiteFooter from '@/components/SiteFooter'
 import WhatsAppFab from '@/components/WhatsAppFab'
 import ProductCard from '@/components/ProductCard'
-import { Seal, Flame, WhatsAppIcon } from '@/components/Brand'
+import { LogoMark, Flame, WhatsAppIcon } from '@/components/Brand'
 
 export const dynamic = 'force-dynamic'
 
@@ -52,7 +52,7 @@ export default async function HomePage() {
             </div>
           </div>
           <div className="flex justify-center">
-            <Seal className="w-[min(230px,55%)]" />
+            <LogoMark className="aspect-square w-[min(230px,55%)]" sizes="230px" priority />
           </div>
         </div>
         <div className="h-2 bg-[linear-gradient(90deg,var(--color-linen)_0_20%,var(--color-travertine)_20%_40%,var(--color-taupe)_40%_55%,var(--color-wheat)_55%_72%,var(--color-olive)_72%_86%,var(--color-navy)_86%_100%)] opacity-85" />
