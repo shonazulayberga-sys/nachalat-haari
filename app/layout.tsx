@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   title: 'נחלת הארי — יודאיקה יוקרתית',
   description:
     'תשמישי קדושה בעבודת יד ובהתאמה אישית — טליתות, תפילין, תיקים, כיפות, מזוזות ומארזים. יודאיקה יוקרתית לרגעים המשמעותיים בחיים.',
+  verification: {
+    google: 'g2v_gaOvvUi4xl83rLXmAef3YyhR_5X-zXlWv-fb7J4',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
