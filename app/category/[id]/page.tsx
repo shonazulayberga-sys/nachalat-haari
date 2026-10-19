@@ -1,8 +1,11 @@
+import { cache } from 'react'
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import { getCategory, getProductsByCategory } from '@/lib/products'
 import { generalOrderLink } from '@/lib/whatsapp'
+import { SITE_NAME, BASE_OPEN_GRAPH, clip } from '@/lib/site'
 import SiteHeader from '@/components/SiteHeader'
 import SiteFooter from '@/components/SiteFooter'
 import WhatsAppFab from '@/components/WhatsAppFab'
@@ -11,9 +14,35 @@ import { WhatsAppIcon } from '@/components/Brand'
 
 export const dynamic = 'force-dynamic'
 
+const loadCategory = cache(getCategory)
+
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+  const { id } = await params
+  const category = await loadCategory(id)
+  if (!category) return {}
+
+  const title = `${category.name} בעבודת יד ובהתאמה אישית`
+  const description = clip(
+    `${category.description} יודאיקה יוקרתית מבית ${SITE_NAME} — הזמנה אישית עם שם וברכה בוואטסאפ.`,
+  )
+  const path = `/category/${encodeURIComponent(category.id)}`
+  return {
+    title,
+    description,
+    alternates: { canonical: path },
+    openGraph: {
+      ...BASE_OPEN_GRAPH,
+      title: `${title} | ${SITE_NAME}`,
+      description,
+      url: path,
+      images: category.image ? [category.image] : undefined,
+    },
+  }
+}
+
 export default async function CategoryPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params
-  const category = await getCategory(id)
+  const category = await loadCategory(id)
   if (!category) notFound()
 
   const products = await getProductsByCategory(id)

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Heebo, Frank_Ruhl_Libre } from 'next/font/google'
+import { SITE_NAME, SITE_URL, BASE_OPEN_GRAPH } from '@/lib/site'
 import './globals.css'
 
 const heebo = Heebo({
@@ -14,15 +15,13 @@ const frank = Frank_Ruhl_Libre({
   variable: '--font-frank',
 })
 
-const SITE_NAME = 'נחלת הארי'
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://nachalat-haari-five.vercel.app'
-
 export const metadata: Metadata = {
-  title: 'נחלת הארי — יודאיקה יוקרתית',
+  metadataBase: new URL(SITE_URL),
+  title: { default: 'נחלת הארי — יודאיקה יוקרתית', template: `%s | ${SITE_NAME}` },
   description:
     'תשמישי קדושה בעבודת יד ובהתאמה אישית — טליתות, תפילין, תיקים, כיפות, מזוזות ומארזים. יודאיקה יוקרתית לרגעים המשמעותיים בחיים.',
   applicationName: SITE_NAME,
-  openGraph: { siteName: SITE_NAME, locale: 'he_IL', type: 'website', url: SITE_URL },
+  openGraph: { ...BASE_OPEN_GRAPH, url: '/' },
   verification: {
     google: 'g2v_gaOvvUi4xl83rLXmAef3YyhR_5X-zXlWv-fb7J4',
   },

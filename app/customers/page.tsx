@@ -7,8 +7,9 @@ import ProductCard from '@/components/ProductCard'
 import { Flame, WhatsAppIcon } from '@/components/Brand'
 
 export const metadata = {
-  title: 'הזמנות של לקוחות — נחלת הארי',
-  description: 'גלריית עבודות אמיתיות שיצרנו עבור לקוחות — כל אחת עם שם, ברכה וסיפור.',
+  title: 'הזמנות של לקוחות — יודאיקה בהתאמה אישית',
+  description: 'גלריית עבודות אמיתיות שיצרנו עבור לקוחות — טליתות, תיקים, שלטים ומזוזות, כל אחת עם שם, ברכה וסיפור.',
+  alternates: { canonical: '/customers' },
 }
 
 export const dynamic = 'force-dynamic'

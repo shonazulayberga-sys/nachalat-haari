@@ -1,7 +1,10 @@
+import { cache } from 'react'
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getProduct, getCategory, getProductsByCategory } from '@/lib/products'
 import { productOrderLink } from '@/lib/whatsapp'
+import { SITE_NAME, BASE_OPEN_GRAPH, clip } from '@/lib/site'
 import SiteHeader from '@/components/SiteHeader'
 import SiteFooter from '@/components/SiteFooter'
 import WhatsAppFab from '@/components/WhatsAppFab'
@@ -16,12 +19,48 @@ const MATERIAL_HE: Record<string, string> = {
 
 export const dynamic = 'force-dynamic'
 
+const loadProduct = cache(getProduct)
+const loadCategory = cache(getCategory)
+
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+  const { id } = await params
+  const product = await loadProduct(id)
+  if (!product) return {}
+  const category = await loadCategory(product.category)
+
+  // שמות מוצרים חוזרים על עצמם (אותו דגם בצבעים/שמות שונים) — השם האישי מבדיל בין הדפים
+  const title = product.personalName ? `${product.name} — ${product.personalName}` : product.name
+  const material = product.material ? MATERIAL_HE[product.material] : undefined
+  const description = clip(
+    [
+      product.description,
+      `${category?.name ?? 'יודאיקה'} בעבודת יד${material ? ` מ${material}` : ''}, בהתאמה אישית של שם, ברכה וצבע.`,
+      `הזמנה אישית בוואטסאפ — ${SITE_NAME}.`,
+    ]
+      .filter(Boolean)
+      .join(' '),
+  )
+  const path = `/product/${encodeURIComponent(product.id)}`
+  return {
+    title,
+    description,
+    alternates: { canonical: path },
+    openGraph: {
+      ...BASE_OPEN_GRAPH,
+      title: `${title} | ${SITE_NAME}`,
+      description,
+      url: path,
+      images: product.images.length ? [product.images[0]] : undefined,
+    },
+  }
+}
+
 export default async function ProductPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params
-  const product = await getProduct(id)
+  const product = await loadProduct(id)
   if (!product) notFound()
 
-  const category = await getCategory(product.category)
+  const category = await loadCategory(product.category)
   const related = (await getProductsByCategory(product.category)).filter((p) => p.id !== product.id).slice(0, 4)
   const waLink = productOrderLink({ name: product.name, categoryName: category?.name, id: product.id })
 

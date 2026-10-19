@@ -9,6 +9,10 @@ import WhatsAppFab from '@/components/WhatsAppFab'
 import ProductCard from '@/components/ProductCard'
 import { LogoMark, Flame, WhatsAppIcon } from '@/components/Brand'
 
+export const metadata = {
+  alternates: { canonical: '/' },
+}
+
 export const dynamic = 'force-dynamic'
 
 export default async function HomePage() {

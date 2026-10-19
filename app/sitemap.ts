@@ -1,9 +1,8 @@
 import type { MetadataRoute } from 'next'
 import { getProducts, getVisibleCategories } from '@/lib/products'
+import { SITE_URL } from '@/lib/site'
 
 export const dynamic = 'force-dynamic'
-
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://nachalat-haari-five.vercel.app'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [products, categories] = await Promise.all([getProducts(), getVisibleCategories()])
